@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "display-sqs-message"
+version = "0.1.0"
+description = ""
+authors = ["Eduardo <eduardo.b.wang@gmail.com>"]
+readme = "README.md"
+packages = [{include = "display_sqs_message"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "^1.26.30"
+flask = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
