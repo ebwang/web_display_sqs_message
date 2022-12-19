@@ -8,7 +8,7 @@ app = flask.Flask(__name__)
 # aws sqs credentials 
 
 # get the url of the queue you wish to paginate
-url = "https://sqs.us-west-2.amazonaws.com/055139393900/SQS_TESTE_WANG"
+url = "https://sqs.us-west-2.amazonaws.com/"
 
 # set the initial page size
 page_size = 10   
