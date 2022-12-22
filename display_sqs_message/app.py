@@ -63,5 +63,5 @@ def write_message():
     )
     return response
 
-if __name__ == '__main__':
+def start_app():
     app.run(debug=True)
